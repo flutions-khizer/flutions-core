@@ -5,22 +5,22 @@
         {
             "name": "Thinking Big",
             "icon": "/img/icons/sm/1.svg",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            "text": "At Flutions, we believe in thinking big and envisioning ambitious solutions to your IT challenges. We strive to push boundaries and exceed expectations, delivering innovative results that propel your business forward."
         },
         {
             "name": "Starting Small",
             "icon": "/img/icons/sm/2.svg",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            "text": "We understand the importance of starting small, focusing on incremental progress and building a solid foundation for success. With Flutions by your side, you can take confident steps towards achieving your long-term objectives, one milestone at a time."
         },
         {
             "name": "Creating Fast",
             "icon": "/img/icons/sm/3.svg",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            "text": "Speed is key in today's fast-paced business landscape. With our streamlined processes and agile methodologies, we ensure rapid development and deployment of solutions, empowering you to stay ahead of the competition."
         },
         {
             "name": "Innovating Scale",
             "icon": "/img/icons/sm/4.svg",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            "text": "Innovation is at the heart of everything we do. From conceptualization to implementation, we're committed to driving innovation at scale, leveraging emerging technologies and industry best practices to deliver transformative solutions that drive growth and efficiency."
         }
     ],
     "button1": {

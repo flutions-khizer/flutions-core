@@ -389,7 +389,7 @@ const Service2 = () => {
       <Service2Reviews />
       {/* reviews end */}
       {/* portfolio */}
-      <LatestProjectsSlider />
+      {/* <LatestProjectsSlider /> */}
       {/* portfolio end */}
       {/* contact */}
       <ContactForm />

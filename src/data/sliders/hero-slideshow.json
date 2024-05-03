@@ -1,17 +1,17 @@
 {
-    "title": { "first": "We Provide Services <br />and Solutions", "second": "To Enterprise" },
+    "title": { "first": "Transform Your Idea Into Reality With", "second": "Flutions" },
     "subtitle": { "first": "The Next", "second": "Gen" },
     "button": { "label": "Let’s Talk", "link": "/contact" },
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "description": "Empowering businesses with customized software solutions for optimal efficiency and growth.",
     "slides": [
         {
-            "image": "img/photo/1.jpg"
+            "image": "img/photo/Banner-1.png"
         },
         {
-            "image": "img/photo/2.jpg"
+            "image": "img/photo/Banner-2.png"
         },
         {
-            "image": "img/photo/3.jpg"
+            "image": "img/photo/Banner-3.png"
         }
     ],
     "items": [

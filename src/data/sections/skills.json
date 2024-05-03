@@ -1,7 +1,7 @@
 {
     "title": { "first": "Business", "second": "Success", "third": "With <br />Technology" },
     "subtitle": "Our Skill",
-    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using content here.",
+    "description": "Flutions brings a wealth of expertise in leveraging technology to drive business success. Our proficiency across various domains ensures that we deliver solutions that align perfectly with your business objectives, helping you stay ahead in today's dynamic market.",
     "items": [
         {
             "label": "Software Development",
@@ -13,7 +13,7 @@
         },
         {
             "label": "UX / UI Design",
-            "value": "50"
+            "value": "80"
         },
         {
             "label": "App Development",
@@ -25,11 +25,11 @@
         },
         {
             "label": "Artificial Intelligence",
-            "value": "90"
+            "value": "80"
         },
         {
             "label": "Blockchain",
-            "value": "80"
+            "value": "70"
         }
     ],
     "button": {

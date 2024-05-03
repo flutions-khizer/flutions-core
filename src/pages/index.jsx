@@ -21,16 +21,16 @@ const Home1 = (props) => {
   return (
     <Layouts transparent>
       <HeroSlideshowSlider />
-      <PartnersSection />
-      <Divider />
+      {/* <PartnersSection /> */}
+      {/* <Divider /> */}
       <ServicesSection />
-      <Divider />
-      <LatestProjectsSlider projects={props.projects} />
+      {/* <Divider /> */}
+      {/* <LatestProjectsSlider projects={props.projects} /> */}
       <HowItWorksSection />
       <SkillsSection />
-      <Divider />
-      <LatestPostsSlider posts={props.posts} />
-      <TestimonialSlider />
+      {/* <Divider /> */}
+      {/* <LatestPostsSlider posts={props.posts} /> */}
+      {/* <TestimonialSlider /> */}
       <ContactSection />
     </Layouts>
   );

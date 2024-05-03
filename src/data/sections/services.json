@@ -7,19 +7,19 @@
                 "num": "01",
                 "name": "Dedicated Team",
                 "icon": "img/icons/md/1.svg",
-                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                "text": "Our dedicated team of experts is committed to delivering top-notch IT solutions tailored to your specific needs. From concept to execution, we're with you every step of the way."
             },
             {
                 "num": "02",
                 "name": "QA and Testing",
                 "icon": "img/icons/md/2.svg",
-                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                "text": "We ensure the quality and reliability of your software through rigorous QA and testing processes. Your satisfaction and peace of mind are our priority."
             },
             {
                 "num": "03",
                 "name": "SaaS",
                 "icon": "img/icons/md/3.svg",
-                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                "text": "Leverage the power of Software as a Service (SaaS) with our custom development solutions. Streamline your operations and enhance efficiency with our scalable SaaS offerings."
             }
         ]
     },
@@ -28,21 +28,21 @@
         "items": [
             {
                 "num": "04",
-                "name": "Blockchain",
+                "name": "Website Development",
                 "icon": "img/icons/md/4.svg",
-                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                "text": "Craft captivating and functional websites that resonate with your audience. Our team excels in creating responsive and dynamic web solutions tailored to your brand."
             },
             {
                 "num": "05",
-                "name": "Artificial Intelligence",
+                "name": "Mobile Development",
                 "icon": "img/icons/md/5.svg",
-                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                "text": "Stay ahead in the mobile-first world with our expert mobile development services. From Android to iOS, we transform your ideas into innovative and user-friendly mobile applications."
             },
             {
                 "num": "06",
-                "name": "Internet of Things",
+                "name": "Artificial Intelligence",
                 "icon": "img/icons/md/6.svg",
-                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                "text": "Harness the potential of Artificial Intelligence to unlock new opportunities and drive growth in your business. Our AI solutions are designed to optimize processes and enhance decision-making."
             }
         ]
     }

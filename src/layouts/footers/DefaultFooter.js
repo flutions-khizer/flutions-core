@@ -13,11 +13,9 @@ const DefaultFooter = () => {
                 style={{ width: 140 }}
               />
               <p className="mil-light-soft mil-mb-30">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                diam nonummy nibh euismod tincidunt ut laoreet dolore magna
-                aliquam erat volutpat.
+              At Flutions, we're dedicated to leveraging technology to empower businesses and drive innovation.
               </p>
-              <a href="#." className="mil-app-btn mil-mb-5">
+              {/* <a href="#." className="mil-app-btn mil-mb-5">
                 <i className="fab fa-google-play" />
                 <div className="mil-app-text">
                   <span className="mil-accent mil-text-sm">
@@ -34,18 +32,18 @@ const DefaultFooter = () => {
                   </span>
                   <div className="mil-h6">App Store</div>
                 </div>
-              </a>
+              </a> */}
             </div>
             <div className="col-xl-7 mil-mt-60-adapt">
               <div className="row">
                 <div className="col-lg-7 mil-mb-30">
                   <h3 className="mil-light mil-up-font mil-mb-30">
-                    Join The <span className="mil-accent">ITSulu</span> <br />
+                    Join The <span className="mil-accent">Flutions</span> <br />
                     Experience
                   </h3>
                   <p className="mil-light-soft">
-                    Lorem ipsum dolor sit amet, consectetuer
-                    <br /> adipiscing elit, sed diam nonummy.
+                    Experience innovation. Join Flutions for 
+                    <br /> transformative solutions.
                   </p>
                 </div>
                 <div className="col-lg-5 mil-mb-30">
@@ -103,7 +101,7 @@ const DefaultFooter = () => {
       </div>
       <div className="mil-footer-bottom">
         <div className="container">
-          <p className="mil-text-sm mil-light">© ITSulu 2023.</p>
+          <p className="mil-text-sm mil-light">© Flutions 2023.</p>
           <p className="mil-text-sm mil-light">All Rights Reserved.</p>
         </div>
       </div>

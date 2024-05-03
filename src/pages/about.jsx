@@ -12,15 +12,15 @@ const About = () => {
           <div className="row align-items-center">
             <div className="col-lg-12 col-xl-6">
               <h4 className="mil-mb-60">
-                Lorem ipsum dolor sit amet,{" "}
-                <span className="mil-accent">consectetur adipiscing elit</span>,
-                sed do eiusmod tempor incididunt ut labor aliqua.
+                At
+                <span className="mil-accent"> Flutions, </span>
+                we're dedicated to leveraging technology to empower businesses and drive innovation.
               </h4>
             </div>
             <div className="col-lg-12 col-xl-6">
               <div className="mil-adaptive-right">
                 <a
-                  href="#."
+                  href="contact"
                   className="mil-button mil-border mil-mr-15 mil-mb-30"
                 >
                   <span>Talk To an Expert</span>
@@ -48,7 +48,7 @@ const About = () => {
               <div className="mil-circle-illustration">
                 <div className="mil-circle-bg" />
                 <div className="mil-image-frame">
-                  <img src="img/faces/t3.png" alt="img" />
+                  <img src="img/faces/About-1.png" alt="img" />
                 </div>
               </div>
             </div>
@@ -63,10 +63,7 @@ const About = () => {
                 <br /> Digital Era.
               </h2>
               <p className="mil-mb-50">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
-                ipsum suspendisse ultrices gravida. Risus commodo viverra
-                maecenas accumsan lacus vel facilisis.{" "}
+                At Flutions, we're dedicated to leveraging technology to empower businesses and drive innovation. Our expertise ensures exceptional IT services and consultancy tailored to your needs.
               </p>
               <div className="row align-items-end">
                 <div className="col-xl-7">
@@ -74,25 +71,25 @@ const About = () => {
                     <li>
                       <img src="img/icons/sm/12.svg" alt="icon" />
                       <span className="mil-dark">
-                        Quis suspendisse ultrices gravida.
+                        Quality-driven Solutions
                       </span>
                     </li>
                     <li>
                       <img src="img/icons/sm/12.svg" alt="icon" />
                       <span className="mil-dark">
-                        Consectetur adipiscing elit.
+                        Timely Deliveries Guaranteed
                       </span>
                     </li>
                     <li>
                       <img src="img/icons/sm/12.svg" alt="icon" />
                       <span className="mil-dark">
-                        Quis suspendisse ultrices gravida.
+                        Expert Team at Your Service,
                       </span>
                     </li>
                     <li>
                       <img src="img/icons/sm/12.svg" alt="icon" />
                       <span className="mil-dark">
-                        Consectetur adipiscing elit.
+                        Innovative Solutions Always
                       </span>
                     </li>
                   </ul>
@@ -103,7 +100,7 @@ const About = () => {
                       <img src="img/faces/1.jpg" alt="cover" />
                     </div>
                     <div className="mil-description">
-                      <h4 className="mil-font-3 mil-accent">Jane Meldrum</h4>
+                      <h4 className="mil-font-3 mil-accent">Khizer Hussain</h4>
                       <p className="mil-text-sm">CEO &amp; Co-Founder</p>
                     </div>
                   </Link>
@@ -169,11 +166,11 @@ const About = () => {
         </div>
       </section>
       {/* counters end */}
-      <div className="container">
+      {/* <div className="container">
         <div className="mil-divider" />
-      </div>
+      </div> */}
       {/* partners */}
-      <div className="mil-partners mil-p-120-90">
+      {/* <div className="mil-partners mil-p-120-90">
         <div className="container">
           <div className="mil-partners-frame">
             <a href="#.">
@@ -196,7 +193,7 @@ const About = () => {
             </a>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* partners end */}
       {/* about */}
       <section className="mil-deep-bg mil-p-120-60">
@@ -207,7 +204,7 @@ const About = () => {
               <div className="mil-circle-illustration">
                 <div className="mil-circle-bg" />
                 <div className="mil-image-frame">
-                  <img src="img/faces/t2.png" alt="img" />
+                  <img src="img/faces/Mission-1.png" alt="img" />
                 </div>
               </div>
             </div>
@@ -217,12 +214,7 @@ const About = () => {
               </span>
               <h2 className="mil-mb-50">Our Mission</h2>
               <p className="mil-mb-50">
-                Many desktop publishing packages and web page editors now use
-                Lorem Ipsum as their default model text, and a search for 'lorem
-                ipsum' will uncover many web sites still in their infancy.
-                Various versions have evolved over the years, sometimes by
-                accident, sometimes on purpose. There are many variations of
-                passages majority.
+                At Flutions, our mission is to revolutionize the IT landscape. We're committed to delivering cutting-edge solutions that surpass expectations and drive meaningful impact for our clients. With a focus on innovation and excellence, we strive to lead the way in the ever-evolving digital world.
               </p>
               <ul className="mil-simple-list">
                 <li>Accelerate innovation.</li>
@@ -254,10 +246,7 @@ const About = () => {
               </div>
               <div className="col-xl-6">
                 <p className="mil-box-text mil-mb-30">
-                  Et iusto odio dignissim qui blandit praesent luptatum zzril
-                  delenit. Duis autem vel eum iriure dolor in hendrerit in
-                  vulputate velit esse molestie consequat, vel illum dolore eu
-                  feugiat nulla facilisis at vero eros et accumsan.
+                  Benefit from our top-notch expertise and industry knowledge. We bring extensive experience to the table, ensuring superior solutions for your business needs.
                 </p>
               </div>
             </div>
@@ -275,10 +264,7 @@ const About = () => {
               </div>
               <div className="col-xl-6">
                 <p className="mil-box-text mil-mb-30">
-                  Facilisis at vero eros et accumsan et iusto odio dignissim.
-                  Duis autem vel eum iriure dolor in hendrerit in vulputate
-                  velit esse molestie consequat, vel illum dolore eu feugiat
-                  nulla qui blandit praesent luptatum zzril delenit.
+                  Our commitment to quality management guarantees excellence in every aspect of our service delivery. Rest assured, your projects are in capable hands with our meticulous attention to detail.
                 </p>
               </div>
             </div>
@@ -296,10 +282,7 @@ const About = () => {
               </div>
               <div className="col-xl-6">
                 <p className="mil-box-text mil-mb-30">
-                  Dolore eu feugiat nulla facilisis at. Quis autem vel eum
-                  iriure dolor in hendrerit in vulputate velit esse molestie
-                  consequat, vel illum vero eros et accumsan et iusto odio
-                  dignissim qui blandit praesent luptatum zzril delenit.
+                  Enjoy utmost flexibility in our approach to meeting your requirements. We adapt to your needs, offering tailored solutions that align perfectly with your business objectives.
                 </p>
               </div>
             </div>
@@ -317,10 +300,7 @@ const About = () => {
               </div>
               <div className="col-xl-6">
                 <p className="mil-box-text mil-mb-30">
-                  Duis autem vel eum iriure dolor in hendrerit in vulputate
-                  velit esse molestie consequat, vel illum dolore eu feugiat
-                  nulla facilisis at vero eros et accumsan et iusto odio
-                  dignissim qui blandit praesent luptatum zzril.
+                  Stay ahead in a fast-paced world with our agile approach. We respond swiftly to changes and challenges, ensuring timely and efficient project delivery.
                 </p>
               </div>
             </div>
@@ -338,10 +318,7 @@ const About = () => {
               </div>
               <div className="col-xl-6">
                 <p className="mil-box-text mil-mb-30">
-                  Blandit praesent luptatum zzril. Duis autem vel eum iriure
-                  dolor in hendrerit in vulputate velit esse molestie consequat,
-                  vel illum dolore eu feugiat nulla facilisis at vero eros et
-                  accumsan et iusto odio dignissim qui delenit.
+                  Experience innovation at its finest with Flutions. We constantly explore new ideas and technologies to drive progress and innovation in your projects.
                 </p>
               </div>
             </div>
@@ -369,9 +346,7 @@ const About = () => {
                 <div className="mil-box-text">
                   <h4 className="mil-mb-30">We Are</h4>
                   <p className="mil-box-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
+                    At Flutions, we are driven by a passion for excellence and a commitment to exceeding expectations. Our team embodies professionalism and dedication in every project we undertake.
                   </p>
                 </div>
               </div>
@@ -384,9 +359,7 @@ const About = () => {
                 <div className="mil-box-text">
                   <h4 className="mil-mb-30">We Deep Dive</h4>
                   <p className="mil-box-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
+                    We dive deep into understanding your needs and challenges, ensuring that our solutions are precisely tailored to meet your objectives. With thorough analysis and attention to detail, we deliver results that make a difference.
                   </p>
                 </div>
               </div>
@@ -399,9 +372,7 @@ const About = () => {
                 <div className="mil-box-text">
                   <h4 className="mil-mb-30">We Take</h4>
                   <p className="mil-box-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
+                    We take ownership of your project as if it were our own, taking responsibility for its success from start to finish. You can trust us to go above and beyond to deliver exceptional outcomes.
                   </p>
                 </div>
               </div>
@@ -414,9 +385,7 @@ const About = () => {
                 <div className="mil-box-text">
                   <h4 className="mil-mb-30">We Value</h4>
                   <p className="mil-box-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
+                    We value integrity, transparency, and trust in all our interactions. Building strong relationships with our clients is fundamental to everything we do, and we strive to earn your trust every step of the way.
                   </p>
                 </div>
               </div>
@@ -429,9 +398,7 @@ const About = () => {
                 <div className="mil-box-text">
                   <h4 className="mil-mb-30">We Believe</h4>
                   <p className="mil-box-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
+                    We believe in the power of collaboration and teamwork. By working together seamlessly, we leverage our collective strengths to achieve remarkable results that drive your business forward.
                   </p>
                 </div>
               </div>
@@ -444,9 +411,7 @@ const About = () => {
                 <div className="mil-box-text">
                   <h4 className="mil-mb-30">We Say “We”</h4>
                   <p className="mil-box-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
+                    At Flutions, we are a unified team working towards a common goal. When you partner with us, you become part of our extended team, and together, we embark on a journey towards success.
                   </p>
                 </div>
               </div>
