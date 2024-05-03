@@ -1,6 +1,6 @@
 import PageBanner from "@/src/components/PageBanner";
 import Layouts from "@/src/layouts/Layouts";
-const Service1 = () => {
+const SaaS = () => {
   return (
     <Layouts footer={2}>
       <PageBanner
@@ -484,4 +484,4 @@ const Service1 = () => {
     </Layouts>
   );
 };
-export default Service1;
+export default SaaS;

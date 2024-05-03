@@ -1,16 +1,16 @@
 import PageBanner from "@/src/components/PageBanner";
 import Layouts from "@/src/layouts/Layouts";
 import dynamic from "next/dynamic";
-const Service4Courses = dynamic(
-  () => import("@/src/components/sliders/Service4Courses"),
+const AiMlDevelopmentCourses = dynamic(
+  () => import("@/src/components/sliders/AiMlDevelopmentCourses"),
   {
     ssr: false,
   }
 );
-const Service4 = () => {
+const AiMlDevelopment = () => {
   return (
     <Layouts footer={2}>
-      <PageBanner pageName={"Service"} pageTitle={"Cybersecurity"} />
+      <PageBanner pageName={"Service"} pageTitle={"AI/ML Development"} />
       {/* about */}
       <section className="mil-p-120-90">
         <div
@@ -32,9 +32,11 @@ const Service4 = () => {
             </div>
             <div className="col-xl-7">
               <h2 className="mil-mb-30">
-                Protect Your IT Environments With{" "}
-                <span className="mil-accent">Powerful Cloud Security</span>{" "}
-                Solutions and Always on Support
+                Unlock the potential of{" "}
+                <span className="mil-accent">
+                  Artificial Intelligence and Machine Learning
+                </span>{" "}
+                to propel your business into the future
               </h2>
               <div className="mil-hori-box mil-mb-30">
                 <div className="mil-mr-30">
@@ -44,10 +46,12 @@ const Service4 = () => {
                 </div>
                 <p>
                   Our{" "}
-                  <span className="mil-accent">certified cloud security</span>{" "}
-                  experts help protect your environments across hyperscale
-                  public and private clouds so you can run your business
-                  confidence.
+                  <span className="mil-accent">AI/ML development services</span>{" "}
+                  harness the power of cutting-edge technologies to transform
+                  your ideas into intelligent solutions. Whether you're looking
+                  to enhance customer experiences, optimize operations, or drive
+                  innovation, our team of experts is here to guide you every
+                  step of the way.
                 </p>
               </div>
               <a href="#." className="mil-button mil-border mil-mb-30">
@@ -70,15 +74,14 @@ const Service4 = () => {
                 Discover Our Company
               </span>
               <h2 className="mil-mb-30">
-                Explore <span className="mil-accent">Cloud Security</span>{" "}
-                Solutions
+                Explore <span className="mil-accent">AI/ML Development</span>
               </h2>
-              <p className="mil-mb-90">
+              {/* <p className="mil-mb-90">
                 The import ContactForm from "@/src/components/ContactForm";
                 import Layouts from "@/src/layouts/Layouts"; constant evolution
                 of threats and the race for more sophisticated tools to combat
                 them means that security is changing rapidly.
-              </p>
+              </p> */}
             </div>
           </div>
           <div className="row">
@@ -91,10 +94,11 @@ const Service4 = () => {
                 <div className="mil-icon-frame mil-icon-frame-md mil-icon-bg mil-mb-30">
                   <h3>I</h3>
                 </div>
-                <h5 className="mil-mb-30">Application Security</h5>
+                <h5 className="mil-mb-30">Custom AI Solutions</h5>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Tailored AI models and algorithms designed to meet your
+                  specific business objectives and address your unique
+                  challenges.
                 </p>
               </div>
             </div>
@@ -107,10 +111,11 @@ const Service4 = () => {
                 <div className="mil-icon-frame mil-icon-frame-md mil-icon-bg mil-mb-30">
                   <h3>II</h3>
                 </div>
-                <h5 className="mil-mb-30">Data Protection</h5>
+                <h5 className="mil-mb-30">Machine Learning Development</h5>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  From data preprocessing and feature engineering to model
+                  training and deployment, we provide end-to-end machine
+                  learning development services.
                 </p>
               </div>
             </div>
@@ -123,10 +128,11 @@ const Service4 = () => {
                 <div className="mil-icon-frame mil-icon-frame-md mil-icon-bg mil-mb-30">
                   <h3>III</h3>
                 </div>
-                <h5 className="mil-mb-30">Network Security</h5>
+                <h5 className="mil-mb-30">Deep Learning Expertise</h5>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Harness the capabilities of deep neural networks for advanced
+                  pattern recognition, natural language processing, computer
+                  vision, and more.
                 </p>
               </div>
             </div>
@@ -139,10 +145,11 @@ const Service4 = () => {
                 <div className="mil-icon-frame mil-icon-frame-md mil-icon-bg mil-mb-30">
                   <h3>IV</h3>
                 </div>
-                <h5 className="mil-mb-30">Security Strategy</h5>
+                <h5 className="mil-mb-30">Predictive Analytics</h5>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Leverage historical data to forecast future trends, anticipate
+                  customer behavior, optimize resource allocation, and make
+                  data-driven decisions.
                 </p>
               </div>
             </div>
@@ -155,10 +162,11 @@ const Service4 = () => {
                 <div className="mil-icon-frame mil-icon-frame-md mil-icon-bg mil-mb-30">
                   <h3>V</h3>
                 </div>
-                <h5 className="mil-mb-30">Detection and Response</h5>
+                <h5 className="mil-mb-30">AI-powered Automation</h5>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Streamline processes, increase efficiency, and reduce costs by
+                  automating repetitive tasks and workflows using AI-driven
+                  solutions.
                 </p>
               </div>
             </div>
@@ -171,10 +179,11 @@ const Service4 = () => {
                 <div className="mil-icon-frame mil-icon-frame-md mil-icon-bg mil-mb-30">
                   <h3>VI</h3>
                 </div>
-                <h5 className="mil-mb-30">Elastic Engineering</h5>
+                <h5 className="mil-mb-30">Integration and Deployment</h5>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Seamlessly integrate AI/ML capabilities into your existing
+                  systems and infrastructure, ensuring smooth deployment and
+                  minimal disruption.
                 </p>
               </div>
             </div>
@@ -204,13 +213,12 @@ const Service4 = () => {
               <div className="mil-icon-frame mil-icon-frame-md mil-icon-bg mil-mb-30">
                 <h3>I</h3>
               </div>
-              <h5 className="mil-mb-30">
-                Cloud Native <br />
-                Security Services
-              </h5>
+              <h5 className="mil-mb-30">Expertise</h5>
               <p>
-                Lorem ipsum dolor sit amet, adipiscing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua.
+                Our team consists of experienced data scientists, machine
+                learning engineers, and AI specialists with a proven track
+                record of delivering successful AI/ML projects across various
+                industries.
               </p>
             </div>
             <div className="col-xl-3 mil-mb-30">
@@ -222,12 +230,12 @@ const Service4 = () => {
                 <h3>II</h3>
               </div>
               <h5 className="mil-mb-30">
-                Multi <br />
-                Cloud Security
+                Collaborative Approach
               </h5>
               <p>
-                Lorem ipsum dolor sit amet, adipiscing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua.
+                We work closely with you to understand your business goals,
+                challenges, and requirements, ensuring that our solutions are
+                aligned with your strategic objectives.
               </p>
             </div>
             <div className="col-xl-3 mil-mb-30">
@@ -238,13 +246,12 @@ const Service4 = () => {
               <div className="mil-icon-frame mil-icon-frame-md mil-icon-bg mil-mb-30">
                 <h3>III</h3>
               </div>
-              <h5 className="mil-mb-30">
-                On Site Security <br />
-                and Compliance
-              </h5>
+              <h5 className="mil-mb-30">Innovation</h5>
               <p>
-                Lorem ipsum dolor sit amet, adipiscing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua.
+                We stay ahead of the curve by continuously exploring emerging
+                technologies and best practices in AI/ML development, allowing
+                us to deliver innovative solutions that give you a competitive
+                edge.
               </p>
             </div>
             <div className="col-xl-3 mil-mb-30">
@@ -255,13 +262,11 @@ const Service4 = () => {
               <div className="mil-icon-frame mil-icon-frame-md mil-icon-bg mil-mb-30">
                 <h3>IV</h3>
               </div>
-              <h5 className="mil-mb-30">
-                Consectetur <br />
-                adipiscing elit
-              </h5>
+              <h5 className="mil-mb-30">Reliability</h5>
               <p>
-                Lorem ipsum dolor sit amet, adipiscing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua.
+                You can count on us to deliver high-quality, reliable solutions
+                on time and within budget, backed by our commitment to
+                excellence and customer satisfaction.
               </p>
             </div>
           </div>
@@ -269,7 +274,7 @@ const Service4 = () => {
       </section>
       {/* ??? end */}
       {/* ??? */}
-      <section className="mil-gradient-bg mil-p-120-90">
+      {/* <section className="mil-gradient-bg mil-p-120-90">
         <div
           className="mil-deco mil-deco-accent"
           style={{ bottom: 0, right: "20%", transform: "rotate(180deg)" }}
@@ -299,10 +304,10 @@ const Service4 = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* ??? end */}
       {/* courses */}
-      <Service4Courses />
+      {/* <AiMlDevelopmentCourses /> */}
       {/* courses end */}
       {/* contact */}
       <section className="mil-contact mil-gradient-bg mil-p-120-0">
@@ -388,4 +393,4 @@ const Service4 = () => {
     </Layouts>
   );
 };
-export default Service4;
+export default AiMlDevelopment;

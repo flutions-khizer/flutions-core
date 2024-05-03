@@ -2,15 +2,15 @@ import PageBanner from "@/src/components/PageBanner";
 import Layouts from "@/src/layouts/Layouts";
 import dynamic from "next/dynamic";
 import Link from "next/link";
-const Service3NavTabs = dynamic(
-  () => import("@/src/components/sliders/Service3NavTabs"),
+const MobileAppDevelopmentNavTabs = dynamic(
+  () => import("@/src/components/sliders/MobileAppDevelopmentNavTabs"),
   {
     ssr: false,
   }
 );
 const LatestProjectsSlider = dynamic( () => import("../components/sliders/LatestProjects"), { ssr: false } );
 
-const Service3 = () => {
+const MobileAppDevelopment = () => {
   return (
     <Layouts footer={2}>
       <PageBanner pageName={"Service"} pageTitle={"Mobile app development"} />
@@ -89,7 +89,7 @@ const Service3 = () => {
       {/* <LatestProjectsSlider /> */}
       
       {/* left nav tabs */}
-      <Service3NavTabs />
+      <MobileAppDevelopmentNavTabs />
       {/* left nav tabs end */}
       <div className="container">
         <div className="mil-divider" />
@@ -213,4 +213,4 @@ const Service3 = () => {
     </Layouts>
   );
 };
-export default Service3;
+export default MobileAppDevelopment;

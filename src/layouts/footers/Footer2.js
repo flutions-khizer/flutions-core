@@ -7,7 +7,7 @@ const Footer2 = () => {
           <div className="row align-items-center mil-p-120-60">
             <div className="col-xl-6 mil-mb-60">
               <h3 className="mil-light mil-mb-15">
-                Join The <span className="mil-accent">ITSulu</span> Experience
+                Join The <span className="mil-accent">Flutions</span> Experience
               </h3>
               <p className="mil-light-soft">
                 Duis autem vel eum iriure dolor in hendrerit in vulputate.
@@ -35,18 +35,18 @@ const Footer2 = () => {
                 className="mil-light mil-light-soft"
                 style={{ marginBottom: 45 }}
               >
-                2307 Beverley Rd Brooklyn, <br />
-                New York 11226 USA.
+                #44, VA Kareem Road, <br />
+                Ambur - 635802, India.
               </p>
               <ul className="mil-simple-list mil-mb-15">
                 <li className="mil-light">
-                  <span className="mil-accent">+07</span>&nbsp;
-                  <span className="mil-light-soft">0 002 00 05</span>
+                  <span className="mil-accent">+91</span>&nbsp;
+                  <span className="mil-light-soft">7358559990</span>
                 </li>
                 <li>
                   <span className="mil-accent">info</span>
                   <span className="mil-light mil-light-soft">
-                    @mydomain.com
+                    @flutions.com
                   </span>
                 </li>
               </ul>
@@ -122,7 +122,7 @@ const Footer2 = () => {
       </div>
       <div className="mil-footer-bottom">
         <div className="container">
-          <p className="mil-text-sm mil-light">© ITSulu 2023.</p>
+          <p className="mil-text-sm mil-light">© Flutions 2022.</p>
           <p className="mil-text-sm mil-light">All Rights Reserved.</p>
         </div>
       </div>

@@ -101,7 +101,7 @@ const DefaultFooter = () => {
       </div>
       <div className="mil-footer-bottom">
         <div className="container">
-          <p className="mil-text-sm mil-light">© Flutions 2023.</p>
+          <p className="mil-text-sm mil-light">© Flutions 2022.</p>
           <p className="mil-text-sm mil-light">All Rights Reserved.</p>
         </div>
       </div>

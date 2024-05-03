@@ -1,6 +1,6 @@
 import { sliderProps } from "@/src/common/sliderProps";
 import { Swiper, SwiperSlide } from "swiper/react";
-const Service2Reviews = () => {
+const UiUxDesignReviews = () => {
   return (
     <section className="mil-gradient-bg mil-p-120-120">
       <div
@@ -134,4 +134,4 @@ const Service2Reviews = () => {
     </section>
   );
 };
-export default Service2Reviews;
+export default UiUxDesignReviews;

@@ -1,7 +1,7 @@
 import { sliderProps } from "@/src/common/sliderProps";
 import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
-const Service3NavTabs = () => {
+const MobileAppDevelopmentNavTabs = () => {
   return (
     <section className="mil-p-120-60">
       <div className="mil-deco" style={{ top: 0, right: "15%" }} />
@@ -204,4 +204,4 @@ const Service3NavTabs = () => {
     </section>
   );
 };
-export default Service3NavTabs;
+export default MobileAppDevelopmentNavTabs;

@@ -170,7 +170,7 @@ const Event = () => {
     //                 />
     //                 <label htmlFor="checkbox-1" className="mil-text-sm">
     //                   I agree to receive other communications from{" "}
-    //                   <span className="mil-accent">ITSulu.</span>
+    //                   <span className="mil-accent">Flutions.</span>
     //                 </label>
     //               </div>
     //               <p className="mil-text-sm mil-mb-30">
@@ -256,7 +256,7 @@ const Event = () => {
     //                   <h5 className="mil-mb-10">Jane Meldrum</h5>
     //                   <p className="mil-text-sm">
     //                     VP, Research Director <br />
-    //                     ITSulu Agent
+    //                     Flutions Agent
     //                   </p>
     //                 </div>
     //               </Link>
@@ -273,7 +273,7 @@ const Event = () => {
     //                   <h5 className="mil-mb-10">Jane Meldrum</h5>
     //                   <p className="mil-text-sm">
     //                     VP, Research Director <br />
-    //                     ITSulu Agent
+    //                     Flutions Agent
     //                   </p>
     //                 </div>
     //               </Link>
@@ -290,7 +290,7 @@ const Event = () => {
     //                   <h5 className="mil-mb-10">Jane Meldrum</h5>
     //                   <p className="mil-text-sm">
     //                     VP, Research Director <br />
-    //                     ITSulu Agent
+    //                     Flutions Agent
     //                   </p>
     //                 </div>
     //               </Link>

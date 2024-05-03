@@ -20,7 +20,7 @@ const DefaultHeader = ({ transparent, headerTop, extarClass }) => {
               <div className="mil-icon-frame mil-icon-frame-sm">
                 <img src="img/icons/sm/4.svg" alt="icon" />
               </div>
-              <p>Find out how ITSulu Could save you over 2.400 US$ a year.</p>
+              <p>Find out how Flutions Could save you over 2.400 US$ a year.</p>
             </div>
             <ul className="mil-ap-list">
               <li>
@@ -52,19 +52,19 @@ const DefaultHeader = ({ transparent, headerTop, extarClass }) => {
                   <Link href="portfolio">Case Studies</Link>
                 </li> */}
                 <li className="mil-has-children">
-                  <Link href="service-1">Services</Link>
+                  <Link href="saas">Services</Link>
                   <ul>
                     <li>
-                      <Link href="service-1">Service 1</Link>
+                      <Link href="saas">Saas</Link>
                     </li>
                     <li>
-                      <Link href="service-2">Service 2</Link>
+                      <Link href="ui-ux-design">UI/UX DESIGN</Link>
                     </li>
                     <li>
-                      <Link href="service-3">Service 3</Link>
+                      <Link href="mobile-app-development">MOBILE APP DEVELOPMENT</Link>
                     </li>
                     <li>
-                      <Link href="service-4">Service 4</Link>
+                      <Link href="ai-ml-development">AI/ML DEVELOPMENT</Link>
                     </li>
                   </ul>
                 </li>

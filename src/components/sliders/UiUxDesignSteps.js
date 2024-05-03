@@ -2,7 +2,7 @@ import { sliderProps } from "@/src/common/sliderProps";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Link from "next/link";
 
-const Service2Steps = () => {
+const UiUxDesignSteps = () => {
   return (
     <section className="mil-deep-bg mil-p-120-0">
       <div className="container">
@@ -256,4 +256,4 @@ const Service2Steps = () => {
     </section>
   );
 };
-export default Service2Steps;
+export default UiUxDesignSteps;

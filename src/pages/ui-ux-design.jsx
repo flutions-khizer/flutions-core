@@ -2,14 +2,14 @@ import ContactForm from "@/src/components/ContactForm";
 import PageBanner from "@/src/components/PageBanner";
 import Layouts from "@/src/layouts/Layouts";
 import dynamic from "next/dynamic";
-const Service2Steps = dynamic(
-  () => import("@/src/components/sliders/Service2Steps"),
+const UiUxDesignSteps = dynamic(
+  () => import("@/src/components/sliders/UiUxDesignSteps"),
   {
     ssr: false,
   }
 );
-const Service2Reviews = dynamic(
-  () => import("@/src/components/sliders/Service2Reviews"),
+const UiUxDesignReviews = dynamic(
+  () => import("@/src/components/sliders/UiUxDesignReviews"),
   {
     ssr: false,
   }
@@ -17,7 +17,7 @@ const Service2Reviews = dynamic(
 const LatestProjectsSlider = dynamic( () => import("../components/sliders/LatestProjects"), { ssr: false } );
 
 
-const Service2 = () => {
+const UiUxDesign = () => {
   return (
     <Layouts footer={2}>
       <PageBanner pageName={"Solution"} pageTitle={"UI/UX design"} />
@@ -383,10 +383,10 @@ const Service2 = () => {
       </section>
       {/* ??? end */}
       {/* steps */}
-      <Service2Steps />
+      <UiUxDesignSteps />
       {/* steps end */}
       {/* reviews */}
-      <Service2Reviews />
+      <UiUxDesignReviews />
       {/* reviews end */}
       {/* portfolio */}
       {/* <LatestProjectsSlider /> */}
@@ -397,4 +397,4 @@ const Service2 = () => {
     </Layouts>
   );
 };
-export default Service2;
+export default UiUxDesign;
