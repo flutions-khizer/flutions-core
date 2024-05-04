@@ -1,8 +1,14 @@
+import React, { useState } from 'react';
 import { sliderProps } from "@/src/common/sliderProps";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Link from "next/link";
 
 const UiUxDesignSteps = () => {
+  const [activeTab, setActiveTab] = useState('tab1');
+
+  const handleTabClick = (tab) => {
+    setActiveTab(tab);
+  };
   return (
     <section className="mil-deep-bg mil-p-120-0">
       <div className="container">
@@ -30,21 +36,12 @@ const UiUxDesignSteps = () => {
                 <div className="row mil-mb-60">
                   <div className="col-lg-6">
                     <p>
-                      There are many variations of passages of Lorem Ipsum
-                      available, but the majority have suffered alteration in
-                      some form, by injected humour, or randomised words which
-                      don't look even slightly believable. If you are going to
-                      use a passage of Lorem Ipsum, you need to be sure there
-                      isn't anything embarrassing hidden.
+                    Through meticulous discovery processes, we delve deep into understanding your goals, target audience, and project requirements. By uncovering key insights, we lay the groundwork for a successful design strategy that aligns with your business objectives.
                     </p>
                   </div>
                   <div className="col-lg-6">
                     <p>
-                      Internet tend to repeat predefined chunks as necessary,
-                      making this the first true generator on the Internet. It
-                      uses a dictionary of over 200 Latin words, combined with a
-                      handful of model sentence structures, to generate Lorem
-                      Ipsum which looks reasonable.
+                    In our discovery phase, we conduct extensive research and analysis to gain a comprehensive understanding of your project's scope and objectives. By collaborating closely with your team, we identify key challenges and opportunities, allowing us to develop a clear roadmap for success.
                     </p>
                   </div>
                 </div>
@@ -66,7 +63,7 @@ const UiUxDesignSteps = () => {
                 >
                   <div className="mil-circle-bg" />
                   <div className="mil-image-frame">
-                    <img src="img/faces/t5.png" alt="img" />
+                    <img src="img/faces/UiSteps-1.png" alt="img" />
                   </div>
                 </div>
               </div>
@@ -85,21 +82,12 @@ const UiUxDesignSteps = () => {
                 <div className="row mil-mb-60">
                   <div className="col-lg-6">
                     <p>
-                      There are many variations of passages of Lorem Ipsum
-                      available, but the majority have suffered alteration in
-                      some form, by injected humour, or randomised words which
-                      don't look even slightly believable. If you are going to
-                      use a passage of Lorem Ipsum, you need to be sure there
-                      isn't anything embarrassing hidden.
+                    We validate our design decisions through user testing and feedback loops. This iterative process ensures that our designs meet the needs and expectations of your users, leading to a more intuitive and effective user experience.
                     </p>
                   </div>
                   <div className="col-lg-6">
                     <p>
-                      Internet tend to repeat predefined chunks as necessary,
-                      making this the first true generator on the Internet. It
-                      uses a dictionary of over 200 Latin words, combined with a
-                      handful of model sentence structures, to generate Lorem
-                      Ipsum which looks reasonable.
+                    Our validation process involves rigorous testing and analysis to ensure that our designs are not only visually appealing but also highly functional and user-friendly. By gathering feedback from real users, we can identify areas for improvement and make informed decisions to optimize the user experience.
                     </p>
                   </div>
                 </div>
@@ -121,7 +109,7 @@ const UiUxDesignSteps = () => {
                 >
                   <div className="mil-circle-bg" />
                   <div className="mil-image-frame">
-                    <img src="img/faces/t4.png" alt="img" />
+                    <img src="img/faces/UiSteps-2.png" alt="img" />
                   </div>
                 </div>
               </div>
@@ -140,21 +128,12 @@ const UiUxDesignSteps = () => {
                 <div className="row mil-mb-60">
                   <div className="col-lg-6">
                     <p>
-                      There are many variations of passages of Lorem Ipsum
-                      available, but the majority have suffered alteration in
-                      some form, by injected humour, or randomised words which
-                      don't look even slightly believable. If you are going to
-                      use a passage of Lorem Ipsum, you need to be sure there
-                      isn't anything embarrassing hidden.
+                    Our design phase focuses on crafting visually appealing and user-friendly interfaces that enhance usability and engagement. We leverage best practices and creative solutions to create designs that not only look great but also drive results for your business.
                     </p>
                   </div>
                   <div className="col-lg-6">
                     <p>
-                      Internet tend to repeat predefined chunks as necessary,
-                      making this the first true generator on the Internet. It
-                      uses a dictionary of over 200 Latin words, combined with a
-                      handful of model sentence structures, to generate Lorem
-                      Ipsum which looks reasonable.
+                    During the design phase, we explore various concepts and iterate on designs to find the perfect balance between aesthetics and functionality. Our goal is to create an immersive and seamless user experience that captivates your audience and reinforces your brand identity.
                     </p>
                   </div>
                 </div>
@@ -176,7 +155,7 @@ const UiUxDesignSteps = () => {
                 >
                   <div className="mil-circle-bg" />
                   <div className="mil-image-frame">
-                    <img src="img/faces/t3.png" alt="img" />
+                    <img src="img/faces/UiSteps-3.png" alt="img" />
                   </div>
                 </div>
               </div>
@@ -195,21 +174,12 @@ const UiUxDesignSteps = () => {
                 <div className="row mil-mb-60">
                   <div className="col-lg-6">
                     <p>
-                      There are many variations of passages of Lorem Ipsum
-                      available, but the majority have suffered alteration in
-                      some form, by injected humour, or randomised words which
-                      don't look even slightly believable. If you are going to
-                      use a passage of Lorem Ipsum, you need to be sure there
-                      isn't anything embarrassing hidden.
+                    Continuous improvement is at the core of our approach. We analyze user data and metrics to identify areas for enhancement, allowing us to refine and optimize the user experience over time. By staying agile and responsive, we ensure that your UI/UX design evolves to meet the changing needs of your audience.
                     </p>
                   </div>
                   <div className="col-lg-6">
                     <p>
-                      Internet tend to repeat predefined chunks as necessary,
-                      making this the first true generator on the Internet. It
-                      uses a dictionary of over 200 Latin words, combined with a
-                      handful of model sentence structures, to generate Lorem
-                      Ipsum which looks reasonable.
+                    Through ongoing analysis and iteration, we strive to stay ahead of the curve and deliver cutting-edge solutions that exceed your expectations. By continuously refining and improving our designs, we ensure that your digital presence remains competitive and relevant in today's ever-evolving landscape.
                     </p>
                   </div>
                 </div>
@@ -231,7 +201,7 @@ const UiUxDesignSteps = () => {
                 >
                   <div className="mil-circle-bg" />
                   <div className="mil-image-frame">
-                    <img src="img/faces/t2.png" alt="img" />
+                    <img src="img/faces/UiSteps-4.png" alt="img" />
                   </div>
                 </div>
               </div>
@@ -239,16 +209,16 @@ const UiUxDesignSteps = () => {
           </SwiperSlide>
         </Swiper>
         <div className="mil-tab-buttons mil-mt-60-adapt">
-          <a className="mil-active" href="#tab1">
+          <a className={activeTab === 'tab1' ? 'mil-active' : ''} href="#tab1" onClick={() => handleTabClick('tab1')}>
             <span>Discovery</span>
           </a>
-          <a href="#tab2">
+          <a className={activeTab === 'tab2' ? 'mil-active' : ''} href="#tab2" onClick={() => handleTabClick('tab2')}>
             <span>Validate</span>
           </a>
-          <a href="#tab3">
+          <a className={activeTab === 'tab3' ? 'mil-active' : ''} href="#tab3" onClick={() => handleTabClick('tab3')}>
             <span>Design</span>
           </a>
-          <a href="#tab4">
+          <a className={activeTab === 'tab4' ? 'mil-active' : ''} href="#tab4" onClick={() => handleTabClick('tab4')}>
             <span>Improve</span>
           </a>
         </div>

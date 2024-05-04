@@ -8,7 +8,7 @@ const MobileAppDevelopmentNavTabs = dynamic(
     ssr: false,
   }
 );
-const LatestProjectsSlider = dynamic( () => import("../components/sliders/LatestProjects"), { ssr: false } );
+const LatestProjectsSlider = dynamic(() => import("../components/sliders/LatestProjects"), { ssr: false });
 
 const MobileAppDevelopment = () => {
   return (
@@ -34,9 +34,7 @@ const MobileAppDevelopment = () => {
                 </div>
                 <h5 className="mil-mb-20">Android Platform</h5>
                 <p className="mil-mb-30">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua
-                  accumsan lacus vel facilisis.
+                  Harnessing the power of Java and Kotlin, we create bespoke Android applications tailored to your needs.
                 </p>
                 <ul className="mil-dot-list">
                   <li className="mil-text-sm mil-bold mil-dark">Java</li>
@@ -49,11 +47,9 @@ const MobileAppDevelopment = () => {
                 <div className="mil-icon-frame mil-icon-bg mil-icon-frame-md mil-mb-30">
                   <img src="img/icons/md/22.svg" alt="icon" />
                 </div>
-                <h5 className="mil-mb-20">Android Platform</h5>
+                <h5 className="mil-mb-20">iOS Platform</h5>
                 <p className="mil-mb-30">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua
-                  accumsan lacus vel facilisis.
+                  Crafting seamless experiences with Swift and Objective-C, we bring your iOS app ideas to life with precision and finesse.
                 </p>
                 <ul className="mil-dot-list">
                   <li className="mil-text-sm mil-bold mil-dark">Swift</li>
@@ -68,9 +64,7 @@ const MobileAppDevelopment = () => {
                 </div>
                 <h5 className="mil-mb-20">Cross Platform</h5>
                 <p className="mil-mb-30">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua
-                  accumsan lacus vel facilisis.
+                  Utilizing React Native, Flutter, and Xamarin, we build versatile apps that work flawlessly across multiple platforms.
                 </p>
                 <ul className="mil-dot-list">
                   <li className="mil-text-sm mil-bold mil-dark">
@@ -85,9 +79,9 @@ const MobileAppDevelopment = () => {
         </div>
       </section>
       {/* ??? end */}
-      
+
       {/* <LatestProjectsSlider /> */}
-      
+
       {/* left nav tabs */}
       <MobileAppDevelopmentNavTabs />
       {/* left nav tabs end */}
@@ -113,8 +107,7 @@ const MobileAppDevelopment = () => {
                 </div>
                 <h5 className="mil-mb-20">eCcommerce</h5>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor facilisis.{" "}
+                Elevate your online retail presence with our tailored eCommerce mobile app solutions. Seamlessly integrate shopping experiences and enhance customer engagement for increased sales and brand loyalty.
                 </p>
               </div>
             </div>
@@ -125,8 +118,7 @@ const MobileAppDevelopment = () => {
                 </div>
                 <h5 className="mil-mb-20">Entertainment</h5>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor facilisis.{" "}
+                Transform entertainment experiences with captivating and interactive mobile apps. Whether it's gaming, media streaming, or social networking, we bring innovative solutions that entertain and engage users.
                 </p>
               </div>
             </div>
@@ -137,8 +129,7 @@ const MobileAppDevelopment = () => {
                 </div>
                 <h5 className="mil-mb-20">Enterprise</h5>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor facilisis.{" "}
+                Empower your enterprise with robust and scalable mobile solutions designed to streamline operations and boost productivity. From employee management to customer relationship management, our enterprise mobile apps are tailored to meet your specific business needs.
                 </p>
               </div>
             </div>

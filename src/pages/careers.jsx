@@ -10,7 +10,7 @@ const CareersBannerSlider = dynamic(
     ssr: false,
   }
 );
-const LatestPostsSlider = dynamic( () => import("../components/sliders/LatestPosts"), { ssr: false } );
+const LatestPostsSlider = dynamic(() => import("../components/sliders/LatestPosts"), { ssr: false });
 
 const Careers = (props) => {
   return (
@@ -28,10 +28,9 @@ const Careers = (props) => {
             </div>
             <div className="col-xl-4">
               <p>
-                It uses a dictionary of over{" "}
-                <span className="mil-accent">200 Latin words</span>, combined
-                with a handful of model sentence structures, to generate Lorem
-                Ipsum which looks reasonable.
+                Explore exciting
+                <span className="mil-accent"> career opportunities </span>, 
+                and take your career to new heights with us. Join a diverse and talented team that is passionate about making a difference in the world.
               </p>
             </div>
           </div>
@@ -141,7 +140,7 @@ const Careers = (props) => {
       </section>
       {/* careers end */}
       {/* about */}
-      <section className="mil-about mil-deep-bg mil-p-120-0">
+      {/* <section className="mil-about mil-deep-bg mil-p-120-0">
         <div className="container">
           <div className="row align-items-center justify-content-between">
             <div className="col-xl-5 mil-mb-60">
@@ -183,10 +182,10 @@ const Careers = (props) => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* about end */}
       {/* counters */}
-      <section className="mil-counters mil-deep-bg mil-p-120-90">
+      {/* <section className="mil-counters mil-deep-bg mil-p-120-90">
         <div className="container">
           <div className="row">
             <div className="col-xl-3">
@@ -219,13 +218,13 @@ const Careers = (props) => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* counters end */}
       {/* banners slider */}
-      <CareersBannerSlider />
+      {/* <CareersBannerSlider /> */}
       {/* banners slider end */}
       {/* partners */}
-      <div className="mil-partners mil-p-90-60">
+      {/* <div className="mil-partners mil-p-90-60">
         <div className="container">
           <div className="mil-partners-frame">
             <a href="#.">
@@ -248,13 +247,13 @@ const Careers = (props) => {
             </a>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* partners end */}
-      <div className="container">
+      {/* <div className="container">
         <div className="mil-divider" />
-      </div>
+      </div> */}
       {/* blog */}
-      <LatestPostsSlider posts={props.posts} />
+      {/* <LatestPostsSlider posts={props.posts} /> */}
     </Layouts>
   );
 };

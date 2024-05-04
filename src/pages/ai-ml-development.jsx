@@ -1,8 +1,9 @@
 import PageBanner from "@/src/components/PageBanner";
+import ContactForm from "@/src/components/ContactForm";
 import Layouts from "@/src/layouts/Layouts";
 import dynamic from "next/dynamic";
-const AiMlDevelopmentCourses = dynamic(
-  () => import("@/src/components/sliders/AiMlDevelopmentCourses"),
+const Service4Courses = dynamic(
+  () => import("@/src/components/sliders/Service4Courses"),
   {
     ssr: false,
   }
@@ -10,7 +11,7 @@ const AiMlDevelopmentCourses = dynamic(
 const AiMlDevelopment = () => {
   return (
     <Layouts footer={2}>
-      <PageBanner pageName={"Service"} pageTitle={"AI/ML Development"} />
+      <PageBanner pageName={"Service"} pageTitle={"AI & ML development"} />
       {/* about */}
       <section className="mil-p-120-90">
         <div
@@ -26,7 +27,7 @@ const AiMlDevelopment = () => {
               >
                 <div className="mil-circle-bg" />
                 <div className="mil-image-frame">
-                  <img src="img/faces/t4.png" alt="img" />
+                  <img src="img/faces/AiMlService-1.png" alt="img" />
                 </div>
               </div>
             </div>
@@ -54,7 +55,7 @@ const AiMlDevelopment = () => {
                   step of the way.
                 </p>
               </div>
-              <a href="#." className="mil-button mil-border mil-mb-30">
+              <a href="contact" className="mil-button mil-border mil-mb-30">
                 <span>Get in Touch</span>
               </a>
             </div>
@@ -74,14 +75,9 @@ const AiMlDevelopment = () => {
                 Discover Our Company
               </span>
               <h2 className="mil-mb-30">
-                Explore <span className="mil-accent">AI/ML Development</span>
+                Explore <span className="mil-accent">AI & ML</span>{" "}
+                Solutions
               </h2>
-              {/* <p className="mil-mb-90">
-                The import ContactForm from "@/src/components/ContactForm";
-                import Layouts from "@/src/layouts/Layouts"; constant evolution
-                of threats and the race for more sophisticated tools to combat
-                them means that security is changing rapidly.
-              </p> */}
             </div>
           </div>
           <div className="row">
@@ -307,88 +303,10 @@ const AiMlDevelopment = () => {
       </section> */}
       {/* ??? end */}
       {/* courses */}
-      {/* <AiMlDevelopmentCourses /> */}
+      {/* <Service4Courses /> */}
       {/* courses end */}
       {/* contact */}
-      <section className="mil-contact mil-gradient-bg mil-p-120-0">
-        <div
-          className="mil-deco mil-deco-accent"
-          style={{ top: 0, right: "10%" }}
-        />
-        <div className="container">
-          <h2 className="mil-light mil-mb-90">
-            Contact <span className="mil-accent">Us</span>
-          </h2>
-          <form>
-            <div className="row">
-              <div className="col-lg-6">
-                <div className="mil-input-frame mil-mb-30">
-                  <label>
-                    <span className="mil-light">Name</span>
-                    <span className="mil-accent">Required</span>
-                  </label>
-                  <input type="text" placeholder="Enter Your Name Here" />
-                </div>
-                <div className="mil-input-frame mil-mb-30">
-                  <label>
-                    <span className="mil-light">Email Adress</span>
-                    <span className="mil-accent">Required</span>
-                  </label>
-                  <input type="email" id="email" placeholder="Your Email" />
-                </div>
-                <div className="mil-input-frame mil-mb-60">
-                  <label>
-                    <span className="mil-light">Phone</span>
-                    <span className="mil-light-soft">Optional</span>
-                  </label>
-                  <input type="number" placeholder="Your Phone" />
-                </div>
-                <div className="mil-attach-frame mil-mb-60">
-                  <i className="fas fa-paperclip" />
-                  <label className="mil-custom-file-input">
-                    <span>Attach your file</span>
-                    <input type="file" id="mil-file-input" />
-                  </label>
-                  <p className="mil-text-sm mil-light-soft">up to 20MB</p>
-                </div>
-              </div>
-              <div className="col-lg-6">
-                <div className="mil-input-frame mil-mb-30">
-                  <label>
-                    <span className="mil-light">Email Adress</span>
-                    <span className="mil-accent">Required</span>
-                  </label>
-                  <textarea placeholder="Your Message" defaultValue={""} />
-                </div>
-                <p className="mil-text-sm mil-light-soft mil-mb-15">
-                  We will process your personal information in accordance with
-                  our Privacy Policy.
-                </p>
-                <div className="mil-checbox-frame mil-mb-60">
-                  <input
-                    className="mil-checkbox"
-                    id="checkbox-1"
-                    type="checkbox"
-                    defaultValue="value"
-                  />
-                  <label htmlFor="checkbox-1" className="mil-text-sm mil-light">
-                    I would like to be contacted with news and updates about
-                    your{" "}
-                    <a href="#." className="mil-accent">
-                      events and services
-                    </a>
-                  </label>
-                </div>
-              </div>
-              <div className="col-12">
-                <button className="mil-button mil-accent-bg mil-fw">
-                  <span>Send Message Now</span>
-                </button>
-              </div>
-            </div>
-          </form>
-        </div>
-      </section>
+      <ContactForm />
       {/* contact end */}
     </Layouts>
   );

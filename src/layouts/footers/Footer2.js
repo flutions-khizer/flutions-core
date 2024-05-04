@@ -10,7 +10,7 @@ const Footer2 = () => {
                 Join The <span className="mil-accent">Flutions</span> Experience
               </h3>
               <p className="mil-light-soft">
-                Duis autem vel eum iriure dolor in hendrerit in vulputate.
+                Experience innovation. Join Flutions for transformative solutions.
               </p>
             </div>
             <div className="col-xl-6 mil-mb-60">
