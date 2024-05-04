@@ -33,9 +33,11 @@ const AiMlDevelopment = () => {
             </div>
             <div className="col-xl-7">
               <h2 className="mil-mb-30">
-                Empower Your IT Environments With{" "}
-                <span className="mil-accent">Cutting-Edge AI & ML</span>{" "}
-                Solutions and Dedicated Support
+                Unlock the potential of{" "}
+                <span className="mil-accent">
+                  Artificial Intelligence and Machine Learning
+                </span>{" "}
+                to propel your business into the future
               </h2>
               <div className="mil-hori-box mil-mb-30">
                 <div className="mil-mr-30">
@@ -45,11 +47,15 @@ const AiMlDevelopment = () => {
                 </div>
                 <p>
                   Our{" "}
-                  <span className="mil-accent">certified AI & ML</span>{" "}
-                  specialists harness the power of artificial intelligence and machine learning to fortify your IT environments, providing unparalleled protection and continuous support for your business operations.
+                  <span className="mil-accent">AI/ML development services</span>{" "}
+                  harness the power of cutting-edge technologies to transform
+                  your ideas into intelligent solutions. Whether you're looking
+                  to enhance customer experiences, optimize operations, or drive
+                  innovation, our team of experts is here to guide you every
+                  step of the way.
                 </p>
               </div>
-              <a href="#." className="mil-button mil-border mil-mb-30">
+              <a href="contact" className="mil-button mil-border mil-mb-30">
                 <span>Get in Touch</span>
               </a>
             </div>
@@ -72,9 +78,6 @@ const AiMlDevelopment = () => {
                 Explore <span className="mil-accent">AI & ML</span>{" "}
                 Solutions
               </h2>
-              <p className="mil-mb-90">
-                Unlock the potential of AI and ML technologies to drive innovation and transformation in your projects. With our expertise, you can harness the power of artificial intelligence and machine learning to revolutionize your business processes and achieve remarkable outcomes.
-              </p>
             </div>
           </div>
           <div className="row">
@@ -87,9 +90,11 @@ const AiMlDevelopment = () => {
                 <div className="mil-icon-frame mil-icon-frame-md mil-icon-bg mil-mb-30">
                   <h3>I</h3>
                 </div>
-                <h5 className="mil-mb-30">AI-Powered Applications</h5>
+                <h5 className="mil-mb-30">Custom AI Solutions</h5>
                 <p>
-                  Leverage the capabilities of AI to develop intelligent applications that automate tasks, personalize user experiences, and deliver unprecedented value to your customers.
+                  Tailored AI models and algorithms designed to meet your
+                  specific business objectives and address your unique
+                  challenges.
                 </p>
               </div>
             </div>
@@ -102,9 +107,11 @@ const AiMlDevelopment = () => {
                 <div className="mil-icon-frame mil-icon-frame-md mil-icon-bg mil-mb-30">
                   <h3>II</h3>
                 </div>
-                <h5 className="mil-mb-30">Data Analytics and Prediction</h5>
+                <h5 className="mil-mb-30">Machine Learning Development</h5>
                 <p>
-                  Utilize machine learning algorithms to analyze vast amounts of data, uncover actionable insights, and make informed decisions that drive business growth and efficiency.
+                  From data preprocessing and feature engineering to model
+                  training and deployment, we provide end-to-end machine
+                  learning development services.
                 </p>
               </div>
             </div>
@@ -117,9 +124,11 @@ const AiMlDevelopment = () => {
                 <div className="mil-icon-frame mil-icon-frame-md mil-icon-bg mil-mb-30">
                   <h3>III</h3>
                 </div>
-                <h5 className="mil-mb-30">Neural Network Security</h5>
+                <h5 className="mil-mb-30">Deep Learning Expertise</h5>
                 <p>
-                  Implement advanced neural network models to enhance the security of your systems, detect anomalies, and protect against emerging threats in real-time.
+                  Harness the capabilities of deep neural networks for advanced
+                  pattern recognition, natural language processing, computer
+                  vision, and more.
                 </p>
               </div>
             </div>
@@ -132,9 +141,11 @@ const AiMlDevelopment = () => {
                 <div className="mil-icon-frame mil-icon-frame-md mil-icon-bg mil-mb-30">
                   <h3>IV</h3>
                 </div>
-                <h5 className="mil-mb-30">AI Strategy Development</h5>
+                <h5 className="mil-mb-30">Predictive Analytics</h5>
                 <p>
-                  Craft a comprehensive AI strategy tailored to your business objectives, ensuring alignment with organizational goals and maximizing the impact of AI initiatives.
+                  Leverage historical data to forecast future trends, anticipate
+                  customer behavior, optimize resource allocation, and make
+                  data-driven decisions.
                 </p>
               </div>
             </div>
@@ -147,9 +158,11 @@ const AiMlDevelopment = () => {
                 <div className="mil-icon-frame mil-icon-frame-md mil-icon-bg mil-mb-30">
                   <h3>V</h3>
                 </div>
-                <h5 className="mil-mb-30">Anomaly Detection and Response</h5>
+                <h5 className="mil-mb-30">AI-powered Automation</h5>
                 <p>
-                  Deploy AI-driven anomaly detection systems to proactively identify and respond to security breaches, minimizing potential risks and safeguarding your assets.
+                  Streamline processes, increase efficiency, and reduce costs by
+                  automating repetitive tasks and workflows using AI-driven
+                  solutions.
                 </p>
               </div>
             </div>
@@ -162,9 +175,11 @@ const AiMlDevelopment = () => {
                 <div className="mil-icon-frame mil-icon-frame-md mil-icon-bg mil-mb-30">
                   <h3>VI</h3>
                 </div>
-                <h5 className="mil-mb-30">Adaptive Machine Learning</h5>
+                <h5 className="mil-mb-30">Integration and Deployment</h5>
                 <p>
-                  Implement elastic engineering principles to build adaptive machine learning models that continuously evolve and improve over time, enabling agile and responsive solutions to dynamic business challenges.
+                  Seamlessly integrate AI/ML capabilities into your existing
+                  systems and infrastructure, ensuring smooth deployment and
+                  minimal disruption.
                 </p>
               </div>
             </div>
@@ -194,11 +209,12 @@ const AiMlDevelopment = () => {
               <div className="mil-icon-frame mil-icon-frame-md mil-icon-bg mil-mb-30">
                 <h3>I</h3>
               </div>
-              <h5 className="mil-mb-30">
-                AI-Powered <br /> Cloud Solutions
-              </h5>
+              <h5 className="mil-mb-30">Expertise</h5>
               <p>
-                Leverage the capabilities of AI to develop cloud-native applications and services that optimize performance, scalability, and efficiency for your business.
+                Our team consists of experienced data scientists, machine
+                learning engineers, and AI specialists with a proven track
+                record of delivering successful AI/ML projects across various
+                industries.
               </p>
             </div>
             <div className="col-xl-3 mil-mb-30">
@@ -210,11 +226,12 @@ const AiMlDevelopment = () => {
                 <h3>II</h3>
               </div>
               <h5 className="mil-mb-30">
-                Multi-Cloud <br />
-                AI Integration
+                Collaborative Approach
               </h5>
               <p>
-                Utilize AI and ML technologies to seamlessly integrate and manage multi-cloud environments, enabling centralized control and resource optimization across diverse platforms.
+                We work closely with you to understand your business goals,
+                challenges, and requirements, ensuring that our solutions are
+                aligned with your strategic objectives.
               </p>
             </div>
             <div className="col-xl-3 mil-mb-30">
@@ -225,12 +242,12 @@ const AiMlDevelopment = () => {
               <div className="mil-icon-frame mil-icon-frame-md mil-icon-bg mil-mb-30">
                 <h3>III</h3>
               </div>
-              <h5 className="mil-mb-30">
-                On-Site AI Deployment <br />
-                and Compliance
-              </h5>
+              <h5 className="mil-mb-30">Innovation</h5>
               <p>
-                Deploy AI solutions on-site to enhance security, streamline operations, and ensure compliance with industry regulations and data protection standards.
+                We stay ahead of the curve by continuously exploring emerging
+                technologies and best practices in AI/ML development, allowing
+                us to deliver innovative solutions that give you a competitive
+                edge.
               </p>
             </div>
             <div className="col-xl-3 mil-mb-30">
@@ -241,12 +258,11 @@ const AiMlDevelopment = () => {
               <div className="mil-icon-frame mil-icon-frame-md mil-icon-bg mil-mb-30">
                 <h3>IV</h3>
               </div>
-              <h5 className="mil-mb-30">
-                Advanced AI Algorithms <br />
-                and Optimization
-              </h5>
+              <h5 className="mil-mb-30">Reliability</h5>
               <p>
-                Leverage cutting-edge AI algorithms and optimization techniques to analyze data, extract insights, and drive informed decision-making for your organization's success.
+                You can count on us to deliver high-quality, reliable solutions
+                on time and within budget, backed by our commitment to
+                excellence and customer satisfaction.
               </p>
             </div>
           </div>

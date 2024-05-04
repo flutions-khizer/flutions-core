@@ -55,6 +55,9 @@ const DefaultHeader = ({ transparent, headerTop, extarClass }) => {
                   <Link href="web-development">Services</Link>
                   <ul>
                     <li>
+                      <Link href="ui-ux-design">UI/UX Design</Link>
+                    </li>
+                    <li>
                       <Link href="web-development">Website Development</Link>
                     </li>
                     <li>
@@ -64,10 +67,7 @@ const DefaultHeader = ({ transparent, headerTop, extarClass }) => {
                       <Link href="saas-development">SAAS Development</Link>
                     </li>
                     <li>
-                      <Link href="ui-ux-design">UI/UX Design</Link>
-                    </li>
-                    <li>
-                      <Link href="ai-ml-development">ai-ml-development</Link>
+                      <Link href="ai-ml-development">AI/ML Development</Link>
                     </li>
                   </ul>
                 </li>
