@@ -2,8 +2,8 @@ import PageBanner from "@/src/components/PageBanner";
 import ContactForm from "@/src/components/ContactForm";
 import Layouts from "@/src/layouts/Layouts";
 import dynamic from "next/dynamic";
-const Service4Courses = dynamic(
-  () => import("@/src/components/sliders/Service4Courses"),
+const AiMlDevelopmentCourses = dynamic(
+  () => import("@/src/components/sliders/AiMlDevelopmentCourses"),
   {
     ssr: false,
   }
@@ -303,7 +303,7 @@ const AiMlDevelopment = () => {
       </section> */}
       {/* ??? end */}
       {/* courses */}
-      {/* <Service4Courses /> */}
+      {/* <AiMlDevelopmentCourses /> */}
       {/* courses end */}
       {/* contact */}
       <ContactForm />
