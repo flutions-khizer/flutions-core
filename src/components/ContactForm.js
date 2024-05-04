@@ -21,7 +21,7 @@ const ContactForm = () => {
               </div>
               <div className="mil-input-frame mil-mb-30">
                 <label>
-                  <span className="mil-light">Email Adress</span>
+                  <span className="mil-light">Email Address</span>
                   <span className="mil-accent">Required</span>
                 </label>
                 <input type="email" placeholder="Your Email" />
@@ -45,7 +45,7 @@ const ContactForm = () => {
             <div className="col-lg-6">
               <div className="mil-input-frame mil-mb-30">
                 <label>
-                  <span className="mil-light">Email Adress</span>
+                  <span className="mil-light">Message</span>
                   <span className="mil-accent">Required</span>
                 </label>
                 <textarea placeholder="Your Message" defaultValue={""} />

@@ -97,7 +97,7 @@ const About = () => {
                 <div className="col-xl-5">
                   <Link href="team-single" className="mil-post-sm mil-mb-60">
                     <div className="mil-cover-frame">
-                      <img src="img/faces/1.jpg" alt="cover" />
+                      <img src="img/faces/Team-1.png" alt="cover" />
                     </div>
                     <div className="mil-description">
                       <h4 className="mil-font-3 mil-accent">Khizer Hussain</h4>
