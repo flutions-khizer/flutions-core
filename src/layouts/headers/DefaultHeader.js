@@ -52,19 +52,22 @@ const DefaultHeader = ({ transparent, headerTop, extarClass }) => {
                   <Link href="portfolio">Case Studies</Link>
                 </li> */}
                 <li className="mil-has-children">
-                  <Link href="service-1">Services</Link>
+                  <Link href="web-development">Services</Link>
                   <ul>
                     <li>
-                      <Link href="service-1">Service 1</Link>
+                      <Link href="web-development">Website Development</Link>
                     </li>
                     <li>
-                      <Link href="service-2">Service 2</Link>
+                      <Link href="mobile-app-development">Mobile App Development</Link>
                     </li>
                     <li>
-                      <Link href="service-3">Service 3</Link>
+                      <Link href="saas-development">SAAS Development</Link>
                     </li>
                     <li>
-                      <Link href="service-4">Service 4</Link>
+                      <Link href="ui-ux-design">UI/UX Design</Link>
+                    </li>
+                    <li>
+                      <Link href="ai-ml-development">ai-ml-development</Link>
                     </li>
                   </ul>
                 </li>
