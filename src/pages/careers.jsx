@@ -40,15 +40,13 @@ const Careers = (props) => {
                 <div className="col-md-6 col-lg-4 col-xl-4 mil-mb-30">
                   <div className="mil-vacancy-head mil-mb-15">
                     <span className="mil-badge">Full Time</span>
-                    <span className="mil-text-sm mil-dark">New York</span>
+                    <span className="mil-text-sm mil-dark">Chennai</span>
                   </div>
                   <h4>UI and Web Developer</h4>
                 </div>
                 <div className="col-md-6 col-lg-4 col-xl-4 mil-mb-30">
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
+                  At Flutions, our team of skilled UI and Web Developers is dedicated to creating visually appealing and highly functional websites. We ensure seamless user experiences by leveraging the latest technologies, optimizing for performance, and delivering responsive designs that meet your business needs.
                   </p>
                 </div>
                 <div className="col-md-12 col-lg-4 col-xl-4 mil-mb-30">
@@ -65,15 +63,13 @@ const Careers = (props) => {
                 <div className="col-md-6 col-lg-4 col-xl-4 mil-mb-30">
                   <div className="mil-vacancy-head mil-mb-15">
                     <span className="mil-badge">Full Time</span>
-                    <span className="mil-text-sm mil-dark">Miami</span>
+                    <span className="mil-text-sm mil-dark">Chennai</span>
                   </div>
                   <h4>App Developer</h4>
                 </div>
                 <div className="col-md-6 col-lg-4 col-xl-4 mil-mb-30">
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
+                  Our App Developers at Flutions build cutting-edge mobile applications designed for performance and scalability. Whether it’s iOS or Android, we focus on intuitive interfaces and smooth user interactions, providing your customers with the best experience on any device.
                   </p>
                 </div>
                 <div className="col-md-12 col-lg-4 col-xl-4 mil-mb-30">
@@ -96,9 +92,7 @@ const Careers = (props) => {
                 </div>
                 <div className="col-md-6 col-lg-4 col-xl-4 mil-mb-30">
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
+                  Our Sales Agents at Flutions are committed to driving growth and ensuring client satisfaction. With deep market insights and a focus on building lasting relationships, we help your business reach new heights by connecting you with the right solutions tailored to your goals.
                   </p>
                 </div>
                 <div className="col-md-12 col-lg-4 col-xl-4 mil-mb-30">
@@ -115,15 +109,13 @@ const Careers = (props) => {
                 <div className="col-md-6 col-lg-4 col-xl-4 mil-mb-30">
                   <div className="mil-vacancy-head mil-mb-15">
                     <span className="mil-badge">Full Time</span>
-                    <span className="mil-text-sm mil-dark">Toronto</span>
+                    <span className="mil-text-sm mil-dark">Chennai</span>
                   </div>
                   <h4>UI/UX Designer</h4>
                 </div>
                 <div className="col-md-6 col-lg-4 col-xl-4 mil-mb-30">
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
+                  Flutions’ creative UI/UX Designers specialize in crafting intuitive and engaging digital experiences. From wireframes to interactive prototypes, we ensure that every element aligns with your brand identity while delivering a seamless journey for your users.
                   </p>
                 </div>
                 <div className="col-md-12 col-lg-4 col-xl-4 mil-mb-30">

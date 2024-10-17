@@ -35,102 +35,52 @@ const Faq = () => {
                 </div>
                 <div className="col-lg-7">
                   <div className="mil-accordion">
-                    <h6>Information about Flutions</h6>
+                    <h6>1. What services does Flutions offer?</h6>
                   </div>
                   <div className="mil-panel">
                     <div className="mil-window">
                       <p>
-                        There are many variations of passages of Lorem Ipsum
-                        available, but the majority have suffered alteration in
-                        some form, by injected humour, or randomised words which
-                        don't look even slightly believable. If you are going to
-                        use a passage of Lorem Ipsum, you need to be sure there
-                        isn't anything embarrassing hidden in the middle of
-                        text. All the Lorem Ipsum generators on the Internet
-                        tend to repeat predefined chunks as necessary, making
-                        this the first true generator on the Internet. It uses a
-                        dictionary of over 200 Latin words, combined with a
-                        handful of model sentence structures.
+                      At Flutions, we offer a wide range of services including website development, mobile app development, UI/UX design, and business growth solutions through our expert sales agents. We are committed to delivering high-quality, user-centric digital experiences that help businesses grow and thrive.
                       </p>
                     </div>
                   </div>
                   <div className="mil-accordion">
-                    <h6>What are the benefits of using Flutions?</h6>
+                    <h6>2. What industries does Flutions specialize in?</h6>
                   </div>
                   <div className="mil-panel">
                     <div className="mil-window">
                       <p>
-                        There are many variations of passages of Lorem Ipsum
-                        available, but the majority have suffered alteration in
-                        some form, by injected humour, or randomised words which
-                        don't look even slightly believable. If you are going to
-                        use a passage of Lorem Ipsum, you need to be sure there
-                        isn't anything embarrassing hidden in the middle of
-                        text. All the Lorem Ipsum generators on the Internet
-                        tend to repeat predefined chunks as necessary, making
-                        this the first true generator on the Internet. It uses a
-                        dictionary of over 200 Latin words, combined with a
-                        handful of model sentence structures.
+                      We work across various industries including e-commerce, healthcare, education, retail, and more. Our team has the expertise to adapt to the unique requirements of different sectors, ensuring tailored solutions that meet industry-specific challenges.
                       </p>
                     </div>
                   </div>
                   <div className="mil-accordion">
-                    <h6>How much does Flutions cost?</h6>
+                    <h6>3. How does Flutions ensure the quality of its web and app development projects?</h6>
                   </div>
                   <div className="mil-panel">
                     <div className="mil-window">
                       <p>
-                        There are many variations of passages of Lorem Ipsum
-                        available, but the majority have suffered alteration in
-                        some form, by injected humour, or randomised words which
-                        don't look even slightly believable. If you are going to
-                        use a passage of Lorem Ipsum, you need to be sure there
-                        isn't anything embarrassing hidden in the middle of
-                        text. All the Lorem Ipsum generators on the Internet
-                        tend to repeat predefined chunks as necessary, making
-                        this the first true generator on the Internet. It uses a
-                        dictionary of over 200 Latin words, combined with a
-                        handful of model sentence structures.
+                      We follow a thorough development process that includes research, design, coding, testing, and ongoing optimization. Our team ensures that all products are responsive, secure, and user-friendly, backed by the latest technologies and best practices in web and app development.
                       </p>
                     </div>
                   </div>
                   <div className="mil-accordion">
-                    <h6>Who owns the information created by staff?</h6>
+                    <h6>4. What technologies do your developers work with?</h6>
                   </div>
                   <div className="mil-panel">
                     <div className="mil-window">
                       <p>
-                        There are many variations of passages of Lorem Ipsum
-                        available, but the majority have suffered alteration in
-                        some form, by injected humour, or randomised words which
-                        don't look even slightly believable. If you are going to
-                        use a passage of Lorem Ipsum, you need to be sure there
-                        isn't anything embarrassing hidden in the middle of
-                        text. All the Lorem Ipsum generators on the Internet
-                        tend to repeat predefined chunks as necessary, making
-                        this the first true generator on the Internet. It uses a
-                        dictionary of over 200 Latin words, combined with a
-                        handful of model sentence structures.
+                      Our team of developers is skilled in modern technologies such as React, Node.js, MongoDB, Express, Python, Oracle SQL, and more. We choose the best tech stack for your project to ensure scalability, performance, and long-term success.
                       </p>
                     </div>
                   </div>
                   <div className="mil-accordion">
-                    <h6>How do I delete my account?</h6>
+                    <h6>5. How can I get a quote for my project?</h6>
                   </div>
                   <div className="mil-panel">
                     <div className="mil-window">
                       <p>
-                        There are many variations of passages of Lorem Ipsum
-                        available, but the majority have suffered alteration in
-                        some form, by injected humour, or randomised words which
-                        don't look even slightly believable. If you are going to
-                        use a passage of Lorem Ipsum, you need to be sure there
-                        isn't anything embarrassing hidden in the middle of
-                        text. All the Lorem Ipsum generators on the Internet
-                        tend to repeat predefined chunks as necessary, making
-                        this the first true generator on the Internet. It uses a
-                        dictionary of over 200 Latin words, combined with a
-                        handful of model sentence structures.
+                      Getting a quote from Flutions is simple! Contact us through our website or email, providing details about your project requirements. Our team will review your needs and provide a customized quote based on the scope and complexity of the project.
                       </p>
                     </div>
                   </div>

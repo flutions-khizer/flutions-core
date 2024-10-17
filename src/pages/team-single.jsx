@@ -1,6 +1,8 @@
 import ContactForm from "@/src/components/ContactForm";
 import Layouts from "@/src/layouts/Layouts";
 import Link from "next/link";
+import Image from 'next/image'; 
+import CeoImage from '../image/Ceo.jpg'; 
 const TeamSingle = () => {
   return (
     <Layouts>
@@ -15,17 +17,17 @@ const TeamSingle = () => {
           <div className="container mil-relative">
             <div className="row justify-content-between">
               <div className="col-lg-6 mil-adaptive-center">
-                <Link href="team" className="mil-link link-left mil-mb-30">
+                <Link href="about" className="mil-link link-left mil-mb-30">
                   <i className="fas fa-arrow-left" />
                   <span>Go Back</span>
                 </Link>
-                <h2 className="mil-uppercase mil-mb-30">Hayman Andrews</h2>
+                <h2 className="mil-uppercase mil-mb-30">Khizar Hussain</h2>
                 <p>Engineering</p>
               </div>
             </div>
             <div className="mil-portrait-position">
               <div className="mil-portrait-frame">
-                <img src="img/faces/t1.png" alt="Hayman Andrews" />
+                <img src={CeoImage.src} alt="Hayman Andrews" />
               </div>
             </div>
           </div>
@@ -147,7 +149,7 @@ const TeamSingle = () => {
                   imagined.
                 </h4>
                 <div className="mil-divider mil-divider-left mil-mb-30" />
-                <p>Hayman Andrews</p>
+                <p>Khizer Hussain</p>
               </div>
             </div>
           </div>

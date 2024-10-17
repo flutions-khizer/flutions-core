@@ -2,6 +2,10 @@ import ContactForm from "@/src/components/ContactForm";
 import PageBanner from "@/src/components/PageBanner";
 import Layouts from "@/src/layouts/Layouts";
 import Link from "next/link";
+import Image from 'next/image'; 
+import CeoImage from '../image/Ceo.jpg'; 
+
+// console.log('CeoImage:', CeoImage);
 const About = () => {
   return (
     <Layouts>
@@ -97,11 +101,11 @@ const About = () => {
                 <div className="col-xl-5">
                   <Link href="team-single" className="mil-post-sm mil-mb-60">
                     <div className="mil-cover-frame">
-                      <img src="img/faces/Team-1.png" alt="cover" />
+                      <img src={CeoImage.src} alt="cover" />
                     </div>
                     <div className="mil-description">
                       <h4 className="mil-font-3 mil-accent">Khizer Hussain</h4>
-                      <p className="mil-text-sm">CEO &amp; Co-Founder</p>
+                      <p className="mil-text-sm">Founder &amp; CEO</p>
                     </div>
                   </Link>
                 </div>
