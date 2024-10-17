@@ -99,7 +99,7 @@ const About = () => {
                   </ul>
                 </div>
                 <div className="col-xl-5">
-                  <Link href="team-single" className="mil-post-sm mil-mb-60">
+                  <Link href="khizer-hussain" className="mil-post-sm mil-mb-60">
                     <div className="mil-cover-frame">
                       <img src={CeoImage.src} alt="cover" />
                     </div>
