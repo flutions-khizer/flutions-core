@@ -21,7 +21,7 @@ const TeamSingle = () => {
                   <i className="fas fa-arrow-left" />
                   <span>Go Back</span>
                 </Link>
-                <h2 className="mil-uppercase mil-mb-30">Khizar Hussain</h2>
+                <h2 className="mil-uppercase mil-mb-30">Khizer Hussain</h2>
                 <p>Founder & CEO</p>
               </div>
             </div>
